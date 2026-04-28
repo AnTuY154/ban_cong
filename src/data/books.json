@@ -1,0 +1,80 @@
+[
+  {
+    "id": "book-001",
+    "slug": "nha-gia-kim",
+    "title": "Nhà giả kim",
+    "author": "Paulo Coelho",
+    "category": "Văn học",
+    "shortDescription": "Hành trình theo đuổi giấc mơ cá nhân với nhiều tầng ý nghĩa về niềm tin.",
+    "price": 89000,
+    "currency": "VND",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800&q=80",
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "book-002",
+    "slug": "tam-ly-hoc-ve-tien",
+    "title": "Tâm lý học về tiền",
+    "author": "Morgan Housel",
+    "category": "Kinh doanh",
+    "shortDescription": "Những nguyên tắc tài chính cá nhân và hành vi con người trong quyết định tiền bạc.",
+    "price": 149000,
+    "currency": "VND",
+    "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=800&q=80",
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "book-003",
+    "slug": "di-tim-le-song",
+    "title": "Đi tìm lẽ sống",
+    "author": "Viktor E. Frankl",
+    "category": "Tâm lý",
+    "shortDescription": "Góc nhìn sâu sắc về ý nghĩa sống, nghị lực và tự do nội tâm.",
+    "price": 118000,
+    "currency": "VND",
+    "image": "https://images.unsplash.com/photo-1474932430478-367dbb6832c1?w=800&q=80",
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "book-004",
+    "slug": "nghe-thuat-song-toi-gian",
+    "title": "Nghệ thuật sống tối giản",
+    "author": "Shunmyo Masuno",
+    "category": "Sống chậm",
+    "shortDescription": "101 gợi ý sống bình tĩnh, nhẹ nhàng và tập trung vào điều cốt lõi.",
+    "price": 99000,
+    "currency": "VND",
+    "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&q=80",
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "book-005",
+    "slug": "ky-luat-tu-giac",
+    "title": "Kỷ luật tự giác",
+    "author": "Brian Tracy",
+    "category": "Kỹ năng",
+    "shortDescription": "Rèn nền tảng kỷ luật để nâng hiệu quả công việc và phát triển bản thân.",
+    "price": 135000,
+    "currency": "VND",
+    "image": "https://images.unsplash.com/photo-1524578271613-d550eacf6090?w=800&q=80",
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "book-006",
+    "slug": "de-men-phieu-luu-ky",
+    "title": "Dế mèn phiêu lưu ký",
+    "author": "Tô Hoài",
+    "category": "Thiếu nhi",
+    "shortDescription": "Tác phẩm kinh điển cho thiếu nhi với thế giới sinh động và nhân văn.",
+    "price": 76000,
+    "currency": "VND",
+    "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80",
+    "featured": true,
+    "inStock": true
+  }
+]

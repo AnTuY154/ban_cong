@@ -1,0 +1,50 @@
+[
+  {
+    "id": "decor-001",
+    "slug": "ke-go-mini-ban-cong",
+    "name": "Kệ gỗ mini ban công",
+    "category": "Đồ gỗ",
+    "shortDescription": "Kệ gỗ nhỏ phù hợp đặt sách, nến thơm và chậu cây mini.",
+    "price": 249000,
+    "currency": "VND",
+    "image": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=800&q=80",
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "decor-002",
+    "slug": "den-ban-anh-vang",
+    "name": "Đèn decor ánh vàng",
+    "category": "Đèn",
+    "shortDescription": "Ánh vàng dịu cho góc đọc tối, tạo chiều sâu và cảm giác thư giãn.",
+    "price": 319000,
+    "currency": "VND",
+    "image": "https://images.unsplash.com/photo-1462212210333-335063b676e1?w=800&q=80",
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "decor-003",
+    "slug": "chau-cay-de-ban",
+    "name": "Chậu cây để bàn",
+    "category": "Cây xanh",
+    "shortDescription": "Chậu gốm phối cây nhỏ giúp cân bằng sắc xanh trong không gian đọc.",
+    "price": 129000,
+    "currency": "VND",
+    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800&q=80",
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "decor-004",
+    "slug": "khay-go-da-nang",
+    "name": "Khay gỗ đa năng",
+    "category": "Đồ gỗ",
+    "shortDescription": "Khay gỗ mộc dùng để sắp sách, cốc trà và phụ kiện nhỏ gọn.",
+    "price": 169000,
+    "currency": "VND",
+    "image": "https://images.unsplash.com/photo-1457449940276-e8deed18bfff?w=800&q=80",
+    "featured": true,
+    "inStock": true
+  }
+]

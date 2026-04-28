@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-cream: #f6f1e7;
+  --color-forest: #5f6f52;
+  --color-moss: #dbe5d1;
+  --color-bark: #2f241b;
+  --color-wood: #7a5a3a;
+  --color-beige: #d7c8b7;
+  --color-border: #e2d3c1;
+  --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  --font-body: "Avenir Next", "Segoe UI", "Noto Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: radial-gradient(circle at top right, rgba(219, 229, 209, 0.35), transparent 35%),
+    var(--color-cream);
+  color: var(--color-bark);
+  font-family: var(--font-body), serif;
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "accessory-001",
+    "slug": "kinh-doc-sach-gong-vintage",
+    "name": "Kính đọc sách gọng vintage",
+    "category": "Kính",
+    "shortDescription": "Thiết kế nhẹ, ôm gọn gương mặt, hợp phong cách đọc sách cổ điển hiện đại.",
+    "price": 329000,
+    "currency": "VND",
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800&q=80",
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "accessory-002",
+    "slug": "hop-dung-kinh-go",
+    "name": "Hộp đựng kính gỗ",
+    "category": "Phụ kiện kính",
+    "shortDescription": "Hộp bảo quản kính bằng gỗ, chống trầy và đồng bộ với decor mộc.",
+    "price": 159000,
+    "currency": "VND",
+    "image": "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=800&q=80",
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "accessory-003",
+    "slug": "day-deo-kinh-vai-det",
+    "name": "Dây đeo kính vải dệt",
+    "category": "Phụ kiện kính",
+    "shortDescription": "Dây đeo chắc chắn, tiện mang theo khi di chuyển và đọc ngoài ban công.",
+    "price": 89000,
+    "currency": "VND",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&q=80",
+    "featured": true,
+    "inStock": true
+  },
+  {
+    "id": "accessory-004",
+    "slug": "khan-lau-kinh-microfiber",
+    "name": "Khăn lau kính microfiber",
+    "category": "Phụ kiện kính",
+    "shortDescription": "Khăn sợi mịn giúp lau kính sạch nhanh, hạn chế xước bề mặt tròng.",
+    "price": 39000,
+    "currency": "VND",
+    "image": "https://images.unsplash.com/photo-1608502718281-7bfc099e4f14?w=800&q=80",
+    "featured": true,
+    "inStock": true
+  }
+]
