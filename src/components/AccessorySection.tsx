@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { formatVnd } from "@/lib/format";
 import type { Product } from "@/lib/types";
 
@@ -25,9 +26,10 @@ export default function AccessorySection({ accessories }: AccessorySectionProps)
 
         <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {featuredAccessories.map((item) => (
-            <article
+            <Link
               key={item.id}
-              className="overflow-hidden rounded-3xl border border-borderwarm bg-cream shadow-float"
+              href={`/phu-kien/${item.slug}`}
+              className="group block overflow-hidden rounded-3xl border border-borderwarm bg-cream shadow-float transition duration-300 hover:-translate-y-1 hover:shadow-xl"
             >
               <div className="relative h-48">
                 <Image src={item.image} alt={item.name} fill className="object-cover" />
@@ -37,14 +39,11 @@ export default function AccessorySection({ accessories }: AccessorySectionProps)
                 <p className="text-sm text-forest">{item.category}</p>
                 <p className="text-sm leading-6 text-wood">{item.shortDescription}</p>
                 <p className="font-semibold text-bark">{formatVnd(item.price)}</p>
-                <a
-                  href={`/phu-kien/${item.slug}`}
-                  className="inline-flex rounded-full border border-bark/20 bg-beige/40 px-4 py-2 text-sm font-semibold text-bark transition hover:bg-beige/70"
-                >
+                <span className="inline-flex rounded-full border border-bark/20 bg-beige/40 px-4 py-2 text-sm font-semibold text-bark transition group-hover:bg-beige/70">
                   Xem chi tiết
-                </a>
+                </span>
               </div>
-            </article>
+            </Link>
           ))}
         </div>
       </div>

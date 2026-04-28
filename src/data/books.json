@@ -10,7 +10,10 @@
     "currency": "VND",
     "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800&q=80",
     "featured": true,
-    "inStock": true
+    "inStock": true,
+    "stock": 10,
+    "condition": "new",
+    "description": "Một câu chuyện ngụ ngôn hiện đại về hành trình đi tìm kho báu và lắng nghe tiếng gọi nội tâm. Cuốn sách truyền cảm hứng mạnh mẽ cho người đang tìm hướng đi, dám bước qua nỗi sợ và kiên định với điều mình tin tưởng. Văn phong giàu hình ảnh, dễ đọc, phù hợp để đọc chậm và suy ngẫm mỗi ngày."
   },
   {
     "id": "book-002",
@@ -23,7 +26,10 @@
     "currency": "VND",
     "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=800&q=80",
     "featured": true,
-    "inStock": true
+    "inStock": true,
+    "stock": 8,
+    "condition": "used",
+    "description": "Cuốn sách phân tích cách con người suy nghĩ và hành xử với tiền bạc qua những câu chuyện gần gũi, thực tế. Tác giả nhấn mạnh rằng thành công tài chính không chỉ đến từ kiến thức, mà còn từ thói quen, kỷ luật và góc nhìn dài hạn. Phù hợp cho người mới bắt đầu xây nền tảng quản lý tài chính cá nhân."
   },
   {
     "id": "book-003",
@@ -36,7 +42,10 @@
     "currency": "VND",
     "image": "https://images.unsplash.com/photo-1474932430478-367dbb6832c1?w=800&q=80",
     "featured": true,
-    "inStock": true
+    "inStock": true,
+    "stock": 12,
+    "condition": "new",
+    "description": "Tác phẩm kinh điển giúp người đọc suy ngẫm sâu về ý nghĩa sống trong nghịch cảnh và lựa chọn thái độ trước khó khăn. Từ trải nghiệm cá nhân, tác giả đưa ra những chiêm nghiệm mạnh mẽ về nghị lực, phẩm giá và tự do nội tâm. Đây là cuốn sách giàu giá trị tinh thần, phù hợp để đọc và chiêm nghiệm nhiều lần."
   },
   {
     "id": "book-004",
@@ -49,7 +58,10 @@
     "currency": "VND",
     "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&q=80",
     "featured": true,
-    "inStock": true
+    "inStock": true,
+    "stock": 6,
+    "condition": "new",
+    "description": "Gồm 101 gợi ý ngắn gọn, thực tế để sống chậm, giảm căng thẳng và đưa tâm trí về trạng thái cân bằng. Nội dung hướng đến những thay đổi nhỏ trong nhịp sống hằng ngày nhưng tạo tác động bền vững. Rất phù hợp cho người muốn xây dựng một lối sống tối giản, tinh gọn và sâu sắc."
   },
   {
     "id": "book-005",
@@ -62,7 +74,10 @@
     "currency": "VND",
     "image": "https://images.unsplash.com/photo-1524578271613-d550eacf6090?w=800&q=80",
     "featured": true,
-    "inStock": true
+    "inStock": true,
+    "stock": 5,
+    "condition": "used",
+    "description": "Cuốn sách tập trung vào sức mạnh của kỷ luật cá nhân như một nền tảng để đạt mục tiêu dài hạn. Nội dung rõ ràng, thực hành cao, giúp người đọc cải thiện hiệu suất công việc và xây dựng thói quen bền vững. Phù hợp với người đi làm, sinh viên và bất kỳ ai đang muốn phát triển bản thân có hệ thống."
   },
   {
     "id": "book-006",
@@ -75,6 +90,9 @@
     "currency": "VND",
     "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80",
     "featured": true,
-    "inStock": true
+    "inStock": true,
+    "stock": 9,
+    "condition": "new",
+    "description": "Một tác phẩm thiếu nhi kinh điển của văn học Việt Nam với ngôn ngữ trong sáng, hóm hỉnh và giàu hình ảnh. Câu chuyện mở ra thế giới thiên nhiên sinh động, đồng thời gửi gắm bài học về tình bạn, lòng dũng cảm và cách trưởng thành. Phù hợp cho cả thiếu nhi lẫn người lớn muốn tìm lại cảm giác đọc trong trẻo."
   }
 ]

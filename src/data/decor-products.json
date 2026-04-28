@@ -9,7 +9,8 @@
     "currency": "VND",
     "image": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=800&q=80",
     "featured": true,
-    "inStock": true
+    "inStock": true,
+    "description": "Kệ gỗ mini thiết kế mộc, kích thước gọn vừa cho góc ban công hoặc bàn đọc sách nhỏ. Dễ phối cùng sách, nến thơm, chậu cây mini để tạo một bố cục ấm áp và có chiều sâu. Bề mặt gỗ trung tính giúp không gian trông gọn gàng nhưng vẫn giữ cảm giác tự nhiên."
   },
   {
     "id": "decor-002",
@@ -21,7 +22,8 @@
     "currency": "VND",
     "image": "https://images.unsplash.com/photo-1462212210333-335063b676e1?w=800&q=80",
     "featured": true,
-    "inStock": true
+    "inStock": true,
+    "description": "Đèn decor ánh vàng dịu giúp không gian đọc buổi tối trở nên thư giãn và dễ chịu cho mắt hơn. Ánh sáng ấm tạo chiều sâu thị giác, đồng thời làm nổi bật chất liệu gỗ và sắc xanh của cây. Phù hợp đặt cạnh kệ sách, ghế đọc hoặc bàn trà nhỏ."
   },
   {
     "id": "decor-003",
@@ -33,7 +35,8 @@
     "currency": "VND",
     "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800&q=80",
     "featured": true,
-    "inStock": true
+    "inStock": true,
+    "description": "Chậu cây để bàn với tông gốm trung tính giúp thêm mảng xanh tinh tế cho góc đọc sách. Kích thước vừa phải, dễ đặt trên kệ, bàn làm việc hoặc bệ cửa sổ ban công. Sắc xanh tự nhiên hỗ trợ cảm giác thư thái và cân bằng năng lượng trong không gian sống."
   },
   {
     "id": "decor-004",
@@ -45,6 +48,7 @@
     "currency": "VND",
     "image": "https://images.unsplash.com/photo-1457449940276-e8deed18bfff?w=800&q=80",
     "featured": true,
-    "inStock": true
+    "inStock": true,
+    "description": "Khay gỗ đa năng giúp gom gọn sách, cốc trà và các phụ kiện nhỏ trong cùng một điểm đặt. Thiết kế mộc, sạch, dễ kết hợp với nhiều phong cách nội thất từ tối giản đến cổ điển hiện đại. Thích hợp cho người muốn giữ góc đọc ngăn nắp mà vẫn có tính thẩm mỹ."
   }
 ]

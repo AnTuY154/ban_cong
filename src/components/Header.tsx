@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const navItems = [
@@ -13,6 +14,8 @@ const navItems = [
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
+  const toSection = (section: string) => (pathname === "/" ? section : `/${section}`);
 
   return (
     <header className="sticky top-0 z-50 border-b border-borderwarm/70 bg-cream/80 backdrop-blur">
@@ -25,7 +28,7 @@ export default function Header() {
           {navItems.map((item) => (
             <a
               key={item.href}
-              href={item.href}
+              href={toSection(item.href)}
               className="text-sm font-medium text-forest transition hover:text-bark"
             >
               {item.label}
@@ -34,7 +37,7 @@ export default function Header() {
         </nav>
 
         <a
-          href="#sach"
+          href={toSection("#sach")}
           className="hidden rounded-full bg-forest px-5 py-2 text-sm font-semibold text-cream transition hover:bg-bark md:inline-flex"
         >
           Khám phá sản phẩm
@@ -60,7 +63,7 @@ export default function Header() {
             {navItems.map((item) => (
               <li key={item.href}>
                 <a
-                  href={item.href}
+                  href={toSection(item.href)}
                   onClick={() => setIsOpen(false)}
                   className="block rounded-xl bg-moss/40 px-4 py-2 text-sm text-bark"
                 >

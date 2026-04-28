@@ -9,7 +9,8 @@
     "currency": "VND",
     "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800&q=80",
     "featured": true,
-    "inStock": true
+    "inStock": true,
+    "description": "Mẫu kính đọc sách gọng vintage có thiết kế nhẹ, đeo êm và ôm gọn khuôn mặt khi đọc lâu. Phong cách cổ điển hiện đại giúp dễ phối cùng không gian gỗ, cây xanh và ánh đèn ấm ở ban công. Phù hợp cho người cần một phụ kiện vừa hữu dụng vừa có điểm nhấn thẩm mỹ."
   },
   {
     "id": "accessory-002",
@@ -21,7 +22,8 @@
     "currency": "VND",
     "image": "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=800&q=80",
     "featured": true,
-    "inStock": true
+    "inStock": true,
+    "description": "Hộp đựng kính bằng gỗ giúp bảo quản tròng kính an toàn, hạn chế trầy xước khi không sử dụng. Thiết kế mộc đồng bộ với các món decor gỗ, tạo cảm giác thống nhất cho góc đọc. Nhỏ gọn, tiện mang theo hoặc đặt cố định trên kệ sách."
   },
   {
     "id": "accessory-003",
@@ -33,7 +35,8 @@
     "currency": "VND",
     "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&q=80",
     "featured": true,
-    "inStock": true
+    "inStock": true,
+    "description": "Dây đeo kính vải dệt chắc chắn, giữ kính an toàn khi di chuyển hoặc sinh hoạt hằng ngày. Chất liệu nhẹ, mềm, giúp đeo thoải mái và thao tác nhanh khi cần cất kính tạm thời. Phù hợp cho người hay đọc sách ngoài ban công, quán cà phê hoặc khi đi làm."
   },
   {
     "id": "accessory-004",
@@ -45,6 +48,7 @@
     "currency": "VND",
     "image": "https://images.unsplash.com/photo-1608502718281-7bfc099e4f14?w=800&q=80",
     "featured": true,
-    "inStock": true
+    "inStock": true,
+    "description": "Khăn lau kính microfiber sợi mịn giúp làm sạch bụi, vết mờ và dấu vân tay nhanh chóng. Chất liệu mềm hỗ trợ hạn chế ma sát gây xước trên bề mặt tròng kính khi sử dụng đúng cách. Là phụ kiện nhỏ nhưng cần thiết để giữ trải nghiệm đọc rõ nét mỗi ngày."
   }
 ]
