@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import { formatVnd } from "@/lib/format";
 import type { Book } from "@/lib/types";
@@ -52,9 +53,10 @@ export default function BookSection({ books }: BookSectionProps) {
 
         <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {visibleBooks.map((book) => (
-            <article
+            <Link
               key={book.id}
-              className="overflow-hidden rounded-3xl border border-borderwarm bg-cream shadow-float"
+              href={`/sach/${book.slug}`}
+              className="group block overflow-hidden rounded-3xl border border-borderwarm bg-cream shadow-float transition duration-300 hover:-translate-y-1 hover:shadow-xl"
             >
               <div className="relative h-52 w-full">
                 <Image src={book.image} alt={book.title} fill className="object-cover" />
@@ -64,14 +66,11 @@ export default function BookSection({ books }: BookSectionProps) {
                 <p className="text-sm text-forest">Tác giả: {book.author}</p>
                 <p className="text-sm leading-6 text-wood">{book.shortDescription}</p>
                 <p className="pt-1 font-semibold text-bark">{formatVnd(book.price)}</p>
-                <a
-                  href={`/sach/${book.slug}`}
-                  className="inline-flex rounded-full border border-bark/20 bg-beige/40 px-4 py-2 text-sm font-semibold text-bark transition hover:bg-beige/70"
-                >
+                <span className="inline-flex rounded-full border border-bark/20 bg-beige/40 px-4 py-2 text-sm font-semibold text-bark transition group-hover:bg-beige/70">
                   Xem chi tiết
-                </a>
+                </span>
               </div>
-            </article>
+            </Link>
           ))}
         </div>
       </div>

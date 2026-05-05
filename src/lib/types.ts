@@ -1,4 +1,5 @@
 export type Currency = "VND";
+export type BookCondition = "new" | "used";
 
 export type Book = {
   id: string;
@@ -7,11 +8,14 @@ export type Book = {
   author: string;
   category: string;
   shortDescription: string;
+  description: string;
   price: number;
   currency: Currency;
   image: string;
   featured: boolean;
   inStock: boolean;
+  stock: number;
+  condition: BookCondition;
 };
 
 export type Product = {
@@ -20,6 +24,7 @@ export type Product = {
   name: string;
   category: string;
   shortDescription: string;
+  description: string;
   price: number;
   currency: Currency;
   image: string;
