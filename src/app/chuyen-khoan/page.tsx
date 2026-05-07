@@ -8,25 +8,26 @@ import Header from "@/components/Header";
 type BankApp = {
   appId: string;
   appName: string;
-  deeplink: string;
 };
 
 const bankInfo = {
   bankName: "Vietcombank",
+  bankCode: "vcb",
   accountNumber: "0123456789",
   accountName: "NGUYEN VAN A",
   transferNote: "SDT + Ten Sach",
+  amount: 0,
 };
 
 const bankApps: BankApp[] = [
-  { appId: "vcb", appName: "Vietcombank", deeplink: "https://dl.vietqr.io/pay?app=vcb" },
-  { appId: "mb", appName: "MB Bank", deeplink: "https://dl.vietqr.io/pay?app=mb" },
-  { appId: "tcb", appName: "Techcombank Mobile", deeplink: "https://dl.vietqr.io/pay?app=tcb" },
-  { appId: "bidv", appName: "BIDV SmartBanking", deeplink: "https://dl.vietqr.io/pay?app=bidv" },
-  { appId: "icb", appName: "VietinBank iPay", deeplink: "https://dl.vietqr.io/pay?app=icb" },
-  { appId: "vpb", appName: "VPBank NEO", deeplink: "https://dl.vietqr.io/pay?app=vpb" },
-  { appId: "tpb", appName: "TPBank Mobile", deeplink: "https://dl.vietqr.io/pay?app=tpb" },
-  { appId: "acb", appName: "ACB One", deeplink: "https://dl.vietqr.io/pay?app=acb" },
+  { appId: "vcb", appName: "Vietcombank" },
+  { appId: "mb", appName: "MB Bank" },
+  { appId: "tcb", appName: "Techcombank Mobile" },
+  { appId: "bidv", appName: "BIDV SmartBanking" },
+  { appId: "icb", appName: "VietinBank iPay" },
+  { appId: "vpb", appName: "VPBank NEO" },
+  { appId: "tpb", appName: "TPBank Mobile" },
+  { appId: "acb", appName: "ACB One" },
 ];
 
 const qrImageUrl =
@@ -39,6 +40,17 @@ export default function ChuyenKhoanPage() {
     () => bankApps.find((bank) => bank.appId === selectedAppId) ?? bankApps[0],
     [selectedAppId],
   );
+  const selectedBankDeepLink = useMemo(() => {
+    const params = new URLSearchParams({
+      app: selectedBank.appId,
+      ba: `${bankInfo.accountNumber}@${bankInfo.bankCode}`,
+      am: String(bankInfo.amount),
+      tn: bankInfo.transferNote,
+      bn: bankInfo.accountName,
+    });
+
+    return `https://dl.vietqr.io/pay?${params.toString()}`;
+  }, [selectedBank.appId]);
 
   return (
     <main>
@@ -74,6 +86,10 @@ export default function ChuyenKhoanPage() {
                 <p className="mt-2 text-sm text-wood">
                   Chon app ban dung, sau do bam nut de mo nhanh. Neu dien thoai chua cai app, lien ket co the khong hoat dong.
                 </p>
+                <p className="mt-2 text-sm text-wood">
+                  Link da gui kem so tai khoan, ten tai khoan, so tien va noi dung. Tuy tung app ngan hang, thong tin co the duoc
+                  tu dien day du hoac mot phan.
+                </p>
 
                 <label htmlFor="bank-app-picker" className="mt-4 block text-sm font-medium text-bark">
                   Chon app ngan hang
@@ -92,7 +108,7 @@ export default function ChuyenKhoanPage() {
                 </select>
 
                 <a
-                  href={selectedBank.deeplink}
+                  href={selectedBankDeepLink}
                   className="mt-4 inline-flex w-full items-center justify-center rounded-xl bg-bark px-4 py-3 text-sm font-semibold text-cream transition hover:opacity-90"
                 >
                   Mo {selectedBank.appName}
